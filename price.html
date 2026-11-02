@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="canonical" href="https://ptodokumenty.veridok.ru/price.html">
+<title>Цена — сервис ПТО и исполнительной документации</title>
+<meta name="description" content="Цена в месяц за пользователя: акты скрытых работ, журналы, реестр исполнительной документации и объёмы для КС-2 и КС-3 по объектам.">
+<link rel="icon" href="favicon.svg">
+<link rel="stylesheet" href="style.css">
+<script src="smoke.js" defer></script>
+<script>
+  /* Открыт экран цен — price_view через smoke.js (window.smokeTrack). */
+  document.addEventListener("DOMContentLoaded", function () { if (window.smokeTrack) window.smokeTrack("price_view"); });
+</script>
+</head>
+<body data-page="price">
+
+<header><div class="wrap">
+  <div class="logo"><a href="index.html" data-ev="click_logo_home">ПТО онлайн-журнал</a></div>
+  <nav class="top"><a href="index.html#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="index.html#primer" data-ev="click_nav_primer">Пример</a></nav>
+</div></header>
+
+<div class="wrap">
+  <div class="hero">
+    <h1>Тариф и цена</h1>
+    <p class="sub">Акты скрытых работ, журналы работ, реестр исполнительной документации и объёмы для КС-2.</p>
+  </div>
+
+  <section id="cena">
+    <div class="grid">
+      <div class="card"><b>Один пользователь</b><span>2 490 ₽ в месяц за пользователя, объекты без ограничения.</span><br><a class="btn" href="pay.html?plan=polzovatel" data-ev="payment_click click_pay_polzovatel">Оплатить — 2 490 ₽</a></div>
+      <div class="card"><b>Команда до трёх пользователей</b><span>4 990 ₽ в месяц: прораб, инженер ПТО и руководитель.</span><br><a class="btn" href="pay.html?plan=komanda" data-ev="payment_click click_pay_komanda">Оплатить — 4 990 ₽</a></div>
+    </div>
+    <p class="note nalog">Цены указаны без НДС.</p>
+    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    <div class="actions"><a class="btn" href="index.html" data-ev="click_back">Вернуться к описанию</a></div>
+  </section>
+</div>
+
+<footer><div class="wrap">
+  <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
+  <p class="muted">Сервис готовит черновики документов по данным с объекта. Содержание и подписи документов — ответственность компании и её специалистов.</p>
+</div></footer>
+
+</body>
+</html>
